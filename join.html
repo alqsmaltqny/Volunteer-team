@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الانضمام للفريق</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body dir="rtl">
+    <header>
+        <nav>
+            <div class="logo">فريق <span style="color: #ff6f61;">اثر</span> التطوعي</div>
+            <ul>
+                <li><a href="index.html" class="cta-button1">الصفحة الرئيسية</a></li>
+                <li><a href="activities.html" class="cta-button1">الأنشطة التطوعية</a></li>
+                <li><a href="projects.html" class="cta-button1">المشاريع</a></li>
+                <li><a href="join.html" class="cta-button1">الانضمام للفريق</a></li>
+                <li><a href="contact.html" class="cta-button1">الاتصال بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>الانضمام إلى الفريق</h1>
+        <form id="contactForm">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">رسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    
+        <h2>الأشخاص المنضمون إلى الفريق</h2>
+        <div id="membersList"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 فريق <span style="color: #ff6f61;">اثر</span> التطوعي جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
